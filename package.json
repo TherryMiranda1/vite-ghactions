@@ -14,9 +14,6 @@
     "ghactions",
     "vitest"
   ],
-  "author": "pchmn",
-  "license": "MIT",
-  "homepage": "https://github.com/pchmn/vite-react-ts-ghactions-template",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -25,7 +22,6 @@
     "test:watch": "vitest",
     "test:ci": "vitest run --coverage",
     "serve": "vite preview",
-    "prepare": "husky install && rm -rf .git/hooks && ln -s ../.husky .git/hooks",
     "lint": "eslint --cache --fix ."
   },
   "dependencies": {
@@ -33,9 +29,6 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "@commitlint/config-conventional": "^17.6.1",
-    "@commitlint/prompt-cli": "^17.6.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/node": "^18.16.3",
@@ -55,8 +48,6 @@
     "eslint-plugin-testing-library": "^5.10.3",
     "eslint-plugin-unused-imports": "^2.0.0",
     "happy-dom": "^9.10.8",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4",
     "vite": "^4.3.4",
